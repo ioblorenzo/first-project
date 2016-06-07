@@ -1,7 +1,5 @@
-
-// main.js
-var update = document.getElementById('update')
-var del = document.getElementById('delete')
+var update = document.getElementById('update');
+var del = document.getElementById('delete');
 
 update.addEventListener('click', function () {
   fetch('quotes', {
@@ -19,7 +17,7 @@ update.addEventListener('click', function () {
   console.log(data)
   window.location.reload()
   })
-})
+});
 
 del.addEventListener('click', function () {
   fetch('quotes', {
@@ -36,4 +34,7 @@ del.addEventListener('click', function () {
   console.log(data)
   window.location.reload()
   })
-})
+});
+
+
+//END OF CODE//
